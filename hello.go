@@ -1,7 +1,11 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/mark-vrb/hello-package-go"
+)
 
 func main() {
-	fmt.Printf("Hello, world111.\n")
+	fmt.Printf(hellopackage.Reverse("Hello, world!"))
 }
